@@ -1,2 +1,5 @@
 # VOIP-CLIENT-SERVER
-A simple java voip client-server app using socks
+A simple java VoIP client-server app using socks and javax.
+The server will sort the clients into channels of two, and will kick you from the channel (letting others join) when you disconnect (only works compiled).
+TODO:
+  -Encrypt the sent bytes.
